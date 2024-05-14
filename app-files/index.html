@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>White Pines Pre-Renovation</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-front-door">
+        <li class="text">Front Door</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-entryway">
+        <li class="text">Entryway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-ground-floor-bedroom">
+        <li class="text">Ground Floor Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-top-of-stairs">
+        <li class="text">Top of Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-living-room-back-right">
+        <li class="text">Living Room Back Right</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-living-room-back-left">
+        <li class="text">Living Room Back Left</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-living-room-front-right">
+        <li class="text">Living Room Front Right</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-living-room-front-left">
+        <li class="text">Living Room Front Left</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-living-room-closet-corner">
+        <li class="text">Living Room Closet Corner</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-lakeside-bedroom">
+        <li class="text">Lakeside Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-bottom-of-stairs">
+        <li class="text">Bottom of Stairs</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-laundry-room">
+        <li class="text">Laundry Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-basement-bedroom">
+        <li class="text">Basement Bedroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-kitchen-back">
+        <li class="text">Kitchen Back</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-dining-room-kitchen">
+        <li class="text">Dining Room-Kitchen</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-dining-room-living-room">
+        <li class="text">Dining Room-Living Room</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-bathroom">
+        <li class="text">Bathroom</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-outdoor-entryway">
+        <li class="text">Outdoor Entryway</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-outdoor-ramp-bottom">
+        <li class="text">Outdoor Ramp Bottom</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
